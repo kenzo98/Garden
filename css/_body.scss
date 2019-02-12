@@ -1,0 +1,28 @@
+body {
+    background: url(../../images/bg-body.jpg) repeat;
+    color: $color;
+    font-family: $fontFamily;
+    font-size: $font-size;
+    margin: $margin;
+    min-width: 940px;
+    padding: $padding;
+  }
+  
+  a {
+    outline: none;
+  }
+  
+  img {
+    border: 0;
+  }
+  
+  p {
+    margin: 0;
+    text-align: justify;
+    a {
+      color: #356618;
+      &:hover {
+        color: #66a143;
+      }
+    }
+  }
